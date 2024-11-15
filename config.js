@@ -135,24 +135,24 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: "music",
+      icon: "palette",
       id: "1",
       links: [
         {
-          name: "Inspirational",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          name: "TPdb",
+          link: "https://theposterdb.com/user/ikonok",
         },
         {
-          name: "Classic",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          name: "TheMoviedb",
+          link: "https://www.themoviedb.org/",
         },
         {
-          name: "Oldies",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          name: "Pinterest",
+          link: "https://fr.pinterest.com/",
         },
         {
-          name: "Rock",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          name: "Deviantart",
+          link: "https://www.deviantart.com/yggdr4zill",
         },
       ],
     },
@@ -161,20 +161,20 @@ const CONFIG = {
       id: "2",
       links: [
         {
-          name: "Linkedin",
-          link: "https://www.linkedin.com",
+          name: "Vinted",
+          link: "https://www.vinted.fr/",
         },
         {
-          name: "Dribbble",
-          link: "https://www.dribbble.com",
+          name: "Yggtorrent",
+          link: "https://www.ygg.re/auth/login",
         },
         {
-          name: "Trello",
-          link: "https://www.trello.com",
+          name: "MyHeritage",
+          link: "https://www.myheritage.fr/",
         },
         {
-          name: "Slack",
-          link: "https://www.slack.com",
+          name: "Geneanet",
+          link: "https://www.geneanet.org/",
         },
       ],
     },
