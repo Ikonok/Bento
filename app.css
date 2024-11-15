@@ -21,7 +21,7 @@
   --sfg: #575279; /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #ea9d34; /* Hover color */
+  --accent: #286983; /* Hover color */
   --background: #fffaf3; /* Background color */
   --cards: #fffaf3; /* Cards color */
 
@@ -35,7 +35,7 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #f6c177; /* Hover color */
+  --accent: #31748f; /* Hover color */
   --background: #1f1d2e; /* Background color */
   --cards: #1f1d2e; /* Cards color */
 
