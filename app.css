@@ -17,13 +17,13 @@
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
-  --fg: #2a283e; /* Foreground color */
-  --sfg: #eb6f92; /* Sceondary Foreground color */
+  --fg: #9893a5; /* Foreground color */
+  --sfg: #575279; /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #b4637a; /* Hover color */
-  --background: #faf4ed; /* Background color */
-  --cards: #f2e9e1; /* Cards color */
+  --accent: #ea9d34; /* Hover color */
+  --background: #fffaf3; /* Background color */
+  --cards: #fffaf3; /* Cards color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
