@@ -1,16 +1,15 @@
 // ┌─┐┬─┐┌─┐┌─┐┌┬┐┬┌┐┌┌─┐┌─┐
 // │ ┬├┬┘├┤ ├┤  │ │││││ ┬└─┐
 // └─┘┴└─└─┘└─┘ ┴ ┴┘└┘└─┘└─┘
-// Function to set Greetings & Quotes
+// Function to set Greetings
 
 const today = new Date();
 const hour = today.getHours();
 const name = CONFIG.name;
-
-//Quotes
+const category = CONFIG.category;
 const quotesElements = document.getElementById("quotes");
 const quote = { content: "Everything will be fine", author: "Anonymous" };
-(function getQuotes() {
+const getQuotes = () => {
   fetch("https://api.quotable.io/quotes/random")
     .then(function (response) {
       let data = response.json();
@@ -20,7 +19,7 @@ const quote = { content: "Everything will be fine", author: "Anonymous" };
       const quotes = data[0];
       quotesElements.innerHTML = `<i>"${quotes.content}"</i> <br/> <b>${quotes.author}</b>`;
     });
-})(); // immediate invoke function
+};
 
 const gree1 = `${CONFIG.greetingNight}\xa0`;
 const gree2 = `${CONFIG.greetingMorning}\xa0`;
@@ -36,3 +35,4 @@ if (hour >= 23 || hour < 6) {
 } else {
   document.getElementById("greetings").innerText = gree4 + name;
 }
+getQuotes();
