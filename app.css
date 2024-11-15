@@ -17,12 +17,12 @@
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  --fg: ##6e6a86; /* Foreground color */
+  --sfg: ##908caa; /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #f5f5f5; /* Background color */
+  --accent: ##3e8fb0; /* Hover color */
+  --background: ##191724; /* Background color */
   --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
