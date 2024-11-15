@@ -22,7 +22,7 @@
 
   /* Light Colors  */
   --accent: #286983; /* Hover color */
-  --background: #fffaf3; /* Background color */
+  --background: #faf4ed; /* Background color */
   --cards: #fffaf3; /* Cards color */
 
   /* Image background  */
@@ -36,7 +36,7 @@
 .darktheme {
   /* Dark Colors  */
   --accent: #31748f; /* Hover color */
-  --background: #1f1d2e; /* Background color */
+  --background: #191724; /* Background color */
   --cards: #1f1d2e; /* Cards color */
 
   /* Fonts Color */
