@@ -37,11 +37,11 @@
   /* Dark Colors  */
   --accent: #3e8fb0; /* Hover color */
   --background: #1f1d2e; /* Background color */
-  --cards: #2a273f; /* Cards color */
+  --cards: #1f1d2e; /* Cards color */
 
   /* Fonts Color */
-  --fg: #f2e9e1; /* Foreground color */
-  --sfg: #575279; /* Secondary Foreground color */
+  --fg: #6e6a86; /* Foreground color */
+  --sfg: #e0def4; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
