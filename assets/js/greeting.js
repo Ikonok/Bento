@@ -19,7 +19,7 @@ const getQuotes = () => {
       const quotes = data[0];
       quotesElements.innerHTML = `<i>"${quotes.content}"</i> <br/> <b>${quotes.author}</b>`;
     });
-};
+};)(); // immediate invoke function
 
 const gree1 = `${CONFIG.greetingNight}\xa0`;
 const gree2 = `${CONFIG.greetingMorning}\xa0`;
