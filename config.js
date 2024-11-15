@@ -11,16 +11,16 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: "Fk",
-  imageBackground: true,
+  name: "Seigneur",
+  imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: "Good morning!",
-  greetingAfternoon: "Good afternoon,",
-  greetingEvening: "Good evening,",
-  greetingNight: "Go to Sleep!",
+  greetingMorning: "Gloire à toi,",
+  greetingAfternoon: "Gloire à toi,",
+  greetingEvening: "Louange à toi,",
+  greetingNight: "Louange à toi,",
 
   // Layout
   bentoLayout: "bento", // 'bento', 'lists', 'buttons'
@@ -29,7 +29,7 @@ const CONFIG = {
   weatherKey: "ec41eb608a44c4268c76abeb21861a4c", // Write here your API Key
   weatherIcons: "OneDark", // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: "C", // 'F', 'C'
-  language: "en", // More languages in https://openweathermap.org/current#multi
+  language: "fr", // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
   defaultLatitude: "45.134170",
@@ -65,14 +65,14 @@ const CONFIG = {
     },
     {
       id: "3",
-      name: "Todoist",
-      icon: "trello",
-      link: "https://todoist.com",
+      name: "LeBoncoin",
+      icon: "circle-dollar-sign",
+      link: "https://www.leboncoin.fr/",
     },
     {
       id: "4",
-      name: "Calendar",
-      icon: "calendar",
+      name: "Twitter",
+      icon: "twitter",
       link: "https://calendar.google.com/calendar/r",
     },
     {
@@ -83,9 +83,9 @@ const CONFIG = {
     },
     {
       id: "6",
-      name: "Odysee",
+      name: "Youtube",
       icon: "youtube",
-      link: "https://odysee.com/",
+      link: "https://www.youtube.com/",
     },
   ],
 
